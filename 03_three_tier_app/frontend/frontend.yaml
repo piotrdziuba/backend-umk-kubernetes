@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: nginx:1.25-alpine
+          image: docker.io/library/nginx:1.25-alpine
           ports:
             - containerPort: 80
           volumeMounts:
